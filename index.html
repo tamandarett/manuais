@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Manuais Tamandaré Tintas</title>
+    <title>Acesso aos Manuais</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>Bem-vindo aos Manuais!</h1>
-    <p>Em breve aqui estarão todos os guias.</p>
+    <div class="login-box">
+        <img src="assets/img/logo.png" alt="Tamandaré Tintas">
+        <h2>Manuais Internos</h2>
+        <input type="password" id="senha" placeholder="Digite a senha">
+        <button onclick="verificarSenha()">Acessar</button>
+        <p id="erro" style="color: red;"></p>
+    </div>
+    <script src="assets/js/password.js"></script>
 </body>
 </html>
